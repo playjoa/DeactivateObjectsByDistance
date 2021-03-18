@@ -43,9 +43,6 @@
 <strong>, Tris: </strong> 6.2k
 <strong>, Verts: </strong> 13.0k
 
-#### Using this method:
-<img src="Screenshots/UsingThis.jpg" width="1280" height="500">
-
 #### Conclusion:
 - Even though it's early on developing this game, it shows pretty interesting results. Got great performance boost and less load on CPU and GPU, this should scale well on lower end devices.
 - <strong> Note: </strong> the power ups are still there, just the graphics and particle FX are being disabled on collectables all over the map. And as soon as you get closer they start to pop in. You can even add some animations to that to make it more seamless.
