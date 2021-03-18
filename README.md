@@ -46,7 +46,7 @@
 #### Conclusion:
 - Even though it's early on developing this game, it shows pretty interesting results. Got great performance boost and less load on CPU and GPU, this should scale well on lower end devices.
 - <strong> Note: </strong> The power ups are still there, just the graphics and particle FX are being disabled on collectables all over the map. And as soon as you get closer they start to pop in. You can even add some animations to make it more seamless.
-- <strong> Note 2: </strong> This is different than Unity culling system, as that system can only be used in static objects. This does not need objects to be static and uses distance rather than visible by camera to enable/disable objects. But it's still the same principle. (Same same, but diffeeeeeerent. But sill same! xD)
+- <strong> Note 2: </strong> This is different than Unity's culling system, as that system can only be used in static objects. This does not need objects to be static and uses distance rather than visible by camera to enable/disable objects. But it's still the same principle. (Same same, but diffeeeeeerent. But still same! xD)
 
 #### Performance Improvements (%):
 <strong> - FPS: </strong> (+) 143.8% <br>
