@@ -22,7 +22,7 @@
 ### Performance test:
 
 #### Not Using:
-<img src="Screenshots/NotUsing.jpg" width="1200" height="500">
+![1](Screenshots/NotUsing.jpg)
 
 #### Performance Stats:
 <strong> - FPS: </strong> 87.5 FPS
@@ -33,7 +33,7 @@
 <strong>, Verts: </strong> 77.6k
 
 #### Using this method:
-<img src="Screenshots/UsingThis.jpg" width="1200" height="500">
+![1](Screenshots/UsingThis.jpg)
 
 #### Performance Stats:
 <strong> - FPS: </strong> 213.4 FPS
