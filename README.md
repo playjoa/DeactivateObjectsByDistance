@@ -17,3 +17,44 @@
 - Choose a distance that you want your objects to deactivate.
 - There you go :D
 
+<br>
+
+### Performance test:
+
+#### Not Using:
+<img src="Screenshots/NotUsing.jpg" width="1280" height="500">
+
+#### Performance Stats:
+<strong> - FPS: </strong> 87.5 FPS
+<strong>, CPU Time: </strong> 11.4 ms
+<strong>, GPU Time: </strong> 2.1 ms
+<strong>, Batches: </strong> 1669
+<strong>, Tris: </strong> 44.4k
+<strong>, Verts: </strong> 77.6k
+
+#### Using this method:
+<img src="Screenshots/UsingThis.jpg" width="1280" height="500">
+
+#### Performance Stats:
+<strong> - FPS: </strong> 213.4 FPS
+<strong>, CPU Time: </strong> 4.7 ms
+<strong>, GPU Time: </strong> 0.6 ms
+<strong>, Batches: </strong> 581
+<strong>, Tris: </strong> 6.2k
+<strong>, Verts: </strong> 13.0k
+
+#### Using this method:
+<img src="Screenshots/UsingThis.jpg" width="1280" height="500">
+
+#### Conclusion:
+- Even though it's early on developing this game, it shows pretty interesting results. Got great performance boost and less load on CPU and GPU, this should scale well on lower end devices.
+- <strong> Note: </strong> the power ups are still there, just the graphics and particle FX are being disabled on collectables all over the map. And as soon as you get closer they start to pop in. You can even add some animations to that to make it more seamless.
+
+#### Performance Improvements (%):
+<strong> - FPS: </strong> (+) 143.8% <br>
+<strong> - CPU Time: </strong> (-) 142.8% <br>
+<strong> - GPU Time: </strong> (-) 450% <br>
+<strong> - Batches: </strong> (-) 387.2% <br>
+<strong> - Tris: </strong> (-) 816.1% <br>
+<strong> - Verts: </strong> (-) 696.9% <br>
+
