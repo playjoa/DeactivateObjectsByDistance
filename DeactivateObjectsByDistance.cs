@@ -27,7 +27,6 @@ public class DeactivateObjectsByDistance : MonoBehaviour
 
         foreach (GameObject o in objects)
         {
-            //Checking to see if object already in desired state
             if (o.activeSelf != value)
                 o.SetActive(value);
         }
@@ -35,7 +34,6 @@ public class DeactivateObjectsByDistance : MonoBehaviour
 
     void CheckDistance()
     {            
-        //Calculating distance from target
         dist = Vector3.Distance(transform.position, targetToCheckDistance.position);
 
         if (dist <= distanceToDeactivate)
